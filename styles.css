@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #FDFBEE;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 50vw;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  #change-due{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #cash{
+    border-style: none;
+    height: 20px;
+    width: 250px;
+  }
+  
+  #purchase-btn{
+    background-color: #FE4F2D;
+    border-style: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    color: #FDFBEE;
+  }
+  
+  #cid{
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
